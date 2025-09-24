@@ -1,0 +1,32 @@
+issue-tracker/
+├── backend/
+│   ├── src/
+│   │   ├── models/
+│   │   │   └── Issue.js              # MongoDB Issue model
+│   │   ├── routes/
+│   │   │   └── issues.js             # Issues API routes
+│   │   ├── middleware/
+│   │   │   └── validation.js         # Request validation
+│   │   └── app.js                    # Express app configuration
+│   ├── .env                          # Environment variables
+│   ├── package.json                  # Backend dependencies
+│   └── server.js                     # Application entry point
+├── frontend/
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── components/
+│   │   │   │   ├── issues-list/      # Issues table component
+│   │   │   │   ├── issue-detail/     # Issue detail view
+│   │   │   │   └── issue-form/       # Create/edit form
+│   │   │   ├── services/
+│   │   │   │   └── issue.service.ts  # API communication
+│   │   │   ├── models/
+│   │   │   │   └── issue.model.ts    # TypeScript interfaces
+│   │   │   ├── app.component.ts      # Root component
+│   │   │   └── app.module.ts         # App configuration
+│   │   ├── index.html                # Main HTML file
+│   │   └── styles.css                # Global styles
+│   ├── angular.json                  # Angular configuration
+│   ├── package.json                  # Frontend dependencies
+│   └── tsconfig.json                 # TypeScript configuration
+└── README.md
